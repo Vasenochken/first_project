@@ -220,9 +220,11 @@ img {
     line-height: 32px;
     letter-spacing: -0.6000000238418579px;
     color: #1B1C21;
+    text-decoration: none;
   }
 
   .buttons-lang {
+    display: flex;
   }
 
   .buttons-lang__button {
