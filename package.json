@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack serve",
     "build-dev": "webpack",
+    "deploy": "gh-pages -d dist",
     "build-prod": "webpack --node-env=production",
     "clear": "rd /s /q dist"
   },
