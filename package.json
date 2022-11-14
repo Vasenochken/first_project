@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Service for repair",
   "main": "index.js",
+  "homepage": "https://vasenochken.github.io/first_project/",
   "scripts": {
     "start": "webpack serve",
     "build-dev": "webpack",
+    "predeploy": "npm run build-dev",
     "deploy": "gh-pages -d dist",
     "build-prod": "webpack --node-env=production",
     "clear": "rd /s /q dist"
